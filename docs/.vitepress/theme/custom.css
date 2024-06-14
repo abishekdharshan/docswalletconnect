@@ -1,0 +1,12 @@
+@import "./theme.css";
+
+:root {
+  --vp-c-brand-1: var(--primary);
+  --vp-c-brand-2: pink;
+
+  --vp-button-brand-bg: var(--actions-default);
+  --vp-button-brand-text: var(--always-white);
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-bg: var(--actions-hover);
+  --vp-button-brand-hover-text: var(--always-white);
+}
