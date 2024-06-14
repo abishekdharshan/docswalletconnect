@@ -12,6 +12,10 @@ export default defineConfig({
       { text: "Guide", link: "/build-on-zero/deploy-smart-contract-to-zero" },
     ],
 
+    search: {
+      provider: "local",
+    },
+
     sidebar: [
       {
         text: "Overview",
