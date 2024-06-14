@@ -2,7 +2,7 @@
 
 :root {
   --vp-c-brand-1: var(--primary);
-  --vp-c-brand-2: pink;
+  --vp-c-brand-2: var(--primary-400);
 
   --vp-button-brand-bg: var(--actions-default);
   --vp-button-brand-text: var(--always-white);
