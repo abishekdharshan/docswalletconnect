@@ -1,0 +1,1 @@
+Zero Network Testnet is an L2 network for the Ethereum Sepolia Testnet. This means that in order to get tokens on Zero Network one should mint ETH on Sepolia Testnet first (one, two, three) and then bridge assets to the Zero Network Testnet. Bridge page can be found here (where?).
