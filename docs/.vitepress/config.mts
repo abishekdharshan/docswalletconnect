@@ -5,7 +5,6 @@ export default defineConfig({
   base: "/zero-docs/",
   title: "Zero Network",
   description: "Docs and developer portal for Zero Network",
-  outDir: "./dist", // Set this to the correct output directory
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
