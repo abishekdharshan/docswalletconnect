@@ -6,7 +6,7 @@ Like on any other L2, transactions on Zero have two costs: the execution costs o
 
 Here’s how Zero solves this:
 
-![Tables 25.png](https://ibb.co/jLrq7VB)
+![Zero Fee Model](./assets/Table.png)
 
 Zero users do not have to worry about gas as it is fully covered by a self-sustainable flywheel. The flywheel uses Zero’s revenue to cover gas for users. The system is different from gas subsidy programs as those often have a limit. Zero’s revenue generation removes that constraint and sets the system up for long-term success.
 
@@ -20,5 +20,4 @@ To ensure the fair distribution of free transactions and prevent abuse, Zero emp
 
 <aside>
 💳 Every wallet accrues charges at a rate determined by its characteristics, such as TVL.
-
 </aside>
