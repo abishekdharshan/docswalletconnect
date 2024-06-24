@@ -1,4 +1,9 @@
-import DefaultTheme from "vitepress/theme";
-import "./custom.css";
+import DefaultTheme from 'vitepress/theme';
+import ClaimZero from './components/ClaimZero.vue';
 
-export default DefaultTheme;
+export default {
+  ...DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('ClaimZero', ClaimZero);
+  }
+};

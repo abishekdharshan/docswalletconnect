@@ -30,7 +30,7 @@ export default defineConfig({
           {
             text: 'Smart-Contract Development',
             collapsible: true,
-            collapsed: false, // Ensure it starts not collapsed
+            collapsed: false,
             items: [
               {
                 text: 'Deploy a smart-contract to ZERϴ',
@@ -47,22 +47,23 @@ export default defineConfig({
           {
             text: 'Tooling',
             collapsible: true,
-            collapsed: false, // Ensure it starts not collapsed
+            collapsed: false,
             items: [
               { text: 'Block Explorer', link: '/build-on-zero/block-explorer' },
               { text: 'Testnet Faucets', link: '/build-on-zero/testnet-faucets' },
             ],
           },
-          // { text: 'Tutorials', link: '/build-on-zero/tutorials' },
+          { text: 'Claim ZERO', link: '/build-on-zero/claim-zero' },
         ],
       },
-      // {
-      //   text: 'Guide',
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/api-examples' },
-      //   ],
-      // },
+      {
+        text: 'Other Docs',
+        items: [
+          { text: 'Zerion API', link: '/other-docs/zerion-api' },
+          { text: 'Audits', link: '/other-docs/audits' },
+          { text: 'Branding Guidelines', link: '/other-docs/branding-guidelines' },
+        ],
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zeriontech/zero-docs' },
