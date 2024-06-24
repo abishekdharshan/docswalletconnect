@@ -1,6 +1,6 @@
-# How to deploy a smart-contract to Zero
+# How to deploy a smart-contract to ZERϴ
 
-Deploying a smart contract to Zero is a straightforward process that is similar to deploying contracts in the zkSync Era. The only difference lies in the network settings, which can be set differently depending on the tooling.
+Deploying a smart contract to ZERϴ is a straightforward process that is similar to deploying contracts in the zkSync Era. The only difference lies in the network settings, which can be set differently depending on the tooling.
 
 Below we describe the process for both **Hardhat** and **Foundry**.
 
@@ -10,7 +10,7 @@ Hardhat is the most popular tool for development, testing, deploying and verifyi
 
 ### Set up plugins
 
-To make Hardhat compatible with the Zero Network, add zkSync's plugins to Hardhat's configuration file.
+To make Hardhat compatible with the ZERϴ Network, add zkSync's plugins to Hardhat's configuration file.
 
 The main plugin you will need is [@matterlabs/hardhat-zksync](https://docs.zksync.io/build/tooling/hardhat/hardhat-zksync). It incapsulates all the necessary plugins and provides convenient methods to access them.
 
@@ -22,15 +22,15 @@ Click [here](https://docs.zksync.io/build/tooling/hardhat/getting-started) to le
 
 ### Configure networks
 
-The following is an additional network setting required to work with Zero Network.
+The following is an additional network setting required to work with ZeZERϴro Network.
 
 ```tsx
 networks: {
   zeroTestnet: {
-    url: 'https://rpc.zksync.caldera.dev',
+    url: 'https://rpc.zerion.io/v1/zero-sepolia',
     zksync: true,
     ethNetwork: 'sepolia',
-    verifyURL: 'https://explorer.zksync.caldera.dev/contract_verification',
+    verifyURL: 'https://zerion.calderaexplorer.xyz/contract_verification',
   }
 }
 ```
@@ -47,7 +47,7 @@ The full instructions for installation and initial setup can be found [here](htt
 
 All foundry commands have additional `--rpc-url` , `--chain` , and `--zksync` parameters.
 
-The following is the example use of these parameters in Zero Network case.
+The following is the example use of these parameters in ZERϴ Network case.
 
 ```tsx
 --rpc-url https://rpc.zksync.caldera.dev --chain 111222333 --zksync

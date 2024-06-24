@@ -1,10 +1,12 @@
-The **Zero Block Explorer** details comprehensive data about transactions, blocks, batches, wallets, tokens, and smart contracts on Zero Network.
+# Block Explorer
 
-## Powered by Blockscout[](https://docs.base.org/docs/tools/block-explorers#blockscout)
+The **ZERϴ Block Explorer** details comprehensive data about transactions, blocks, batches, wallets, tokens, and smart contracts on ZERϴ Network.
 
-A Blockscout explorer is available for Zero.
+## ZERϴ Explorer on zkSync[](https://zerion.calderaexplorer.xyz/)
 
-Blockscout provides tools to help you debug smart contracts and transactions:
+A zkSync-powered explorer is available for ZERϴ.
+
+This lets you debug smart contracts and transactions:
 
 - View, verify, and interact with smart contract source code.
 - View detailed transaction information
